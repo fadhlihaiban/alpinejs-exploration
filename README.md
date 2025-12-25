@@ -1,3 +1,3 @@
-# AlpineJS
+# AlpineJS Exploration
 
-Halaman untuk explore AlpineJS
+Tempat untuk menyimpan hasil explore dan latihan AlpineJS. Untuk pencatatan dokumentasi pembelajaran.
