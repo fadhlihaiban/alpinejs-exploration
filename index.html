@@ -51,14 +51,12 @@
 
 
     <div x-data="{pesan: 'Hello Fadhli!' }" class="container mx-auto w-3/4 text-center mt-10 bg-red-200 p-10 rounded-xl shadow">
-         <button @click="ubahWarna" id="tombolPesan" data-pesan="Hello World" class="py-2 px-5 text-white rounded-md bg-blue-400">Klik Saya!</button>
+         <label for="nama" class="text-sm font-medium text-gray-900 block mb-2">Masukkan Nama</label>
+         <input type="text" @keyup.shift.enter="alert('data terkirim')"
+         class="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
     </div>
 
-    <script>
-        function ubahWarna(e) {
-            e.target.classList.add('bg-red-500');
-        }
-    </script>
+
 
 </body>
 </html>
